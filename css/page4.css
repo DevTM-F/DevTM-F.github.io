@@ -1,0 +1,35 @@
+/*css grid3*/
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 3fr;
+    gap: 10px;
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 10px;
+    
+}
+.grid3-item:nth-child(1) {
+    grid-row: 1 / 4;
+    align-items: center;
+
+}
+.grid3-item{
+    display: grid;
+
+}
+.grid3-item img {
+    grid-column: 1;
+    grid-row: 2 / 3;
+    align-self: end;
+    border-radius: 25px;
+}
+.grid3-item p {
+    background: rgba(0, 0, 0, .6);
+    padding: 10px;
+    color: white;
+    grid-column: 1;
+    grid-row: 2;
+    align-self: end;
+    border-radius: 0px 0px 25px 25px;
+}

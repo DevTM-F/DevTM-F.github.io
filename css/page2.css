@@ -1,0 +1,50 @@
+/*css grid2*/
+.grid2 {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 20px;
+    max-width: 1024px;
+    padding: 10px;
+    margin: 0 auto;
+    grid-column: auto;
+}
+ @media(max-width: 600px){
+.grid2 {
+    grid-template-columns: 1fr;
+}
+}
+.modal {
+    height:100%;
+    width: 100%;
+    border-radius: 10px;
+    background-color:rgb(0,0,0,0.4);
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    overflow:auto;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 40px;
+    border: 2px solid;
+    width: 80%;
+    border-radius: 8px;
+}
+
+.close {
+    float:right;
+    color:#aaa;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

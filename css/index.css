@@ -1,0 +1,103 @@
+.p3{
+    border-radius: 8px 8px 0 0;
+}
+
+.foto {
+    height: 20vh;
+    width: 18rem;
+    padding: 20px;
+}
+.description {
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+/*css flexbox*/
+.flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 1024px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.contact-links {
+    display: flex;
+    justify-content: center;
+    background-color:rgba(0, 0, 0.9);
+    margin: 0 10%;
+    border-radius: 25px;
+  }
+.anuncio {
+    border: 5px solid rgba(0, 0, 0.93);
+    display: relative;
+}
+
+.flip-card {
+    background-color: transparent;
+    height: 300px;
+    
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 8px;
+}
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 97%;
+    height: 90%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+.flip-card-front {
+    display:flex;
+    flex-direction: column;
+    background-color:  rgba(0, 0, 0, .9);
+    align-items: center;
+    color: black;
+    border-radius: 8px;
+}
+.flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 8px;
+}
+i {
+    margin: 15px;
+}
+.languages {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    height: 200px;
+    border-radius: 25px;
+    margin: 30px 23%;
+    align-items: center;
+    align-content: center;
+    max-width: 1024px;
+}
+.logos {
+    width:140px;
+    height:100px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    text-shadow:1px 1px 5px #fff;
+  }
+  .btn:hover{
+    transform: translateY(5px);
+    color: whitesmoke;
+  }
