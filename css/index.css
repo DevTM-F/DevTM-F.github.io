@@ -78,7 +78,9 @@ i {
 }
 .languages {
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    flex-flow: wrap;
     background-color: white;
     padding: 20px;
     height: 200px;
