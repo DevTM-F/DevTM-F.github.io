@@ -39,3 +39,9 @@ $('#lnk').click(function () {
         console.log('A requisição falhou e retornou com a seguinte mensagem: ' + msg);
     });
 });
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-LRXDZ6TJRH');
