@@ -77,15 +77,11 @@ i {
     margin: 15px;
 }
 .languages {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-flow: wrap;
+    
     background-color: white;
     padding: 20px;
-    height: 200px;
     border-radius: 25px;
-    margin: 30px 23%;
+    margin: 30px 27%;
     align-items: center;
     align-content: center;
     max-width: 1024px;
@@ -103,3 +99,7 @@ i {
     transform: translateY(5px);
     color: whitesmoke;
   }
+.row {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
