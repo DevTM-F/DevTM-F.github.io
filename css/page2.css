@@ -57,3 +57,6 @@ iframe {
   text-decoration: none;
   cursor: no-drop;
 }
+.box {
+    align-items: center;
+}

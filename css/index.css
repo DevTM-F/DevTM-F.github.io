@@ -86,8 +86,11 @@ i {
     align-content: center;
     max-width: 1024px;
 }
+.box {
+    justify-self: center;
+    padding: 5px auto;
+}
 .logos {
-    width:140px;
     height:100px;
 }
 .btn {
