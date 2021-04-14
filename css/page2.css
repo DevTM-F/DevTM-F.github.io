@@ -43,9 +43,12 @@ iframe {
 .close {
     float:right;
     color:#aaa;
-    font-size: 40px;
     font-weight: bold;
+    line-height: 15px;
     margin-bottom: 15px;
+    border: 2px solid;
+    border-radius: 50px;
+    padding: 0px 3px 3px 3px;
 }
 
 .close:hover,
