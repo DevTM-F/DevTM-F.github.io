@@ -1,16 +1,19 @@
 /*css grid2*/
 .grid2 {
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
     max-width: 1024px;
     padding: 10px;
     margin: 0 auto;
     grid-column: auto;
 }
- @media(max-width: 600px){
+ @media(max-width: 900px){
 .grid2 {
     grid-template-columns: 1fr;
+}
+body {
+    background: url(../img/28155457110329.jpg) repeat;
 }
 }
 .modal {
@@ -57,3 +60,7 @@ iframe {
   text-decoration: none;
   cursor: no-drop;
 }
+.column {
+    float: left;
+    padding: 10px;
+  }
