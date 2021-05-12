@@ -1,6 +1,6 @@
 .music {
     position:sticky;
-    width: 365px;
+    width: 100%;
     align-self: end;
 }
 audio {
@@ -29,7 +29,7 @@ audio {
 
 }
 
-@media (max-width: 900px) {
+@media (max-width: 767px) {
     .grid1 {
         grid-template-columns: repeat(1, 1fr);
         padding: 0;
