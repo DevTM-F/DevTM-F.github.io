@@ -29,9 +29,13 @@ audio {
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     .grid1 {
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+    }
+    body {
+        background: url(../img/28155457110329.jpg) repeat;
     }
 }
 .grid1 > div:nth-child(n+4) {

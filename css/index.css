@@ -81,10 +81,9 @@ i {
     background-color: white;
     padding: 20px;
     border-radius: 25px;
-    margin: 30px 27%;
+    margin: 30px 24vw;
     align-items: center;
     align-content: center;
-    max-width: 1024px;
 }
 .box {
     justify-self: center;
@@ -105,4 +104,11 @@ i {
 .row {
     display: grid;
     grid-template-columns: auto auto auto auto;
+}
+
+@media ( max-width: 600px) {
+    .languages {
+        margin: 5px 0px;
+        border-radius: 0px;
+    }
 }
